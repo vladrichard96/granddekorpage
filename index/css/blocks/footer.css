@@ -1,0 +1,60 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.network {
+    text-align: center;
+    align-content: flex-start;
+}
+.network p {
+    margin: 0px 0px 4px 0px;
+}
+.network div a {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.contacts {
+    text-align: right;
+}
+.contacts p{
+    margin: 0px;
+}
+.address, .network, .contacts {
+    width: 270px;
+}
+@media screen and (max-width : 842px) {
+    .footer p {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width : 662px) {
+    .footer p {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width : 512px) {
+    .footer p {
+        font-size: 10px;
+    }
+    .network p {
+        margin: 0px;
+    }
+    .network div a {
+        margin: 0px;
+    }
+    .network a {
+        width: 12px;
+        height: 12px;
+    }
+}
+@media screen and (max-width : 410px) {
+    .footer p {
+        font-size: 8px;
+    }
+}
+@media screen and (max-width : 340px) {
+    .footer p {
+        font-size: 7px;
+    }
+}

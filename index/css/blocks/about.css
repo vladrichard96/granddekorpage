@@ -1,0 +1,31 @@
+.about {
+    background-image: url(../../img/back2.png);
+    background-size: cover;
+}
+@media screen and (max-width : 842px) {
+    .about .caption h5 {
+        font-size: 20px;
+    }
+    .about p {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width : 662px) {
+    .about .caption h2 {
+        font-size: 30px;
+    }
+    .about .caption h5 {
+        font-size: 16px;
+    }
+    .about p {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width : 430px) {
+    .about .caption h2 {
+        font-size: 24px;
+    }
+    .about p {
+        font-size: 10px;
+    }
+}

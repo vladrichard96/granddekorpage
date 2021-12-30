@@ -1,0 +1,33 @@
+.note {
+    background-color:#fcf7f5;
+}
+img {
+  height:auto;
+}
+.elements-roster {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.elements-part, .fitting {
+    text-align: center;
+}
+@media screen and (max-width : 624px) {
+    .elements-roster {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width : 570px) {
+    .elements-roster p {
+        margin: 0px;
+        font-size: 12px;
+    }
+    .elements-part img {
+        width: 36%;
+        height: 36%;
+    }
+    .fitting a {
+        padding: 15px;
+    }
+}

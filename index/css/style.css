@@ -1,0 +1,92 @@
+@charset UTF-8;
+
+@font-face {
+    font-family: 'Bookman Old Style';
+    font-weight: normal;
+    src: url(./fonts/Bookman-Old-Style-V2.woff);
+}
+body {
+    font-family:Bookman Old Style;
+    font-size:18px;
+    font-style:normal;
+    
+}
+h1 {
+    font-size:60px;
+    font-weight:normal;
+    letter-spacing: 2px;
+}
+h2 {
+    font-size:40px;
+    font-weight:normal;
+    letter-spacing: -2px;
+    margin: 0px;
+}
+h4 {
+    font-size:28px;
+    font-weight:lighter;
+    letter-spacing: 1px;
+}
+h5 {
+    font-size:24px;
+    font-weight:lighter;
+    color: #666666;
+}
+a {
+    text-decoration: none;
+    outline: none;
+    color: #dc7f7a;
+}
+.redbutton {
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: #dc7f7a;
+    border-radius: 3px;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.55);
+    width: 389px;
+    height: 76px;
+    padding: 22px 35px 22px 35px;
+    font-size: 12px;
+}
+.main, .catalog, .note, .about, .footer {
+    padding-left: 375px;
+    padding-right: 375px;
+}
+.caption {
+    text-align: center;
+}
+.catalog, .note, .about {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+@media screen and (max-width : 1916px) {
+    .main, .catalog, .note, .about, .footer {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+}
+@media screen and (max-width : 1707px) {
+    .main, .catalog, .note, .about, .footer {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+@media screen and (max-width : 1508px) {
+    .main, .catalog, .note, .about, .footer {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+@media screen and (max-width : 1308px) {
+    .main, .catalog, .note, .about, .footer {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media screen and (max-width : 1208px) {
+    .main, .catalog, .note, .about, .footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

@@ -1,0 +1,42 @@
+.main {
+    background-color: #fdebeb;
+    background: url('../../img/back1.png');
+    box-shadow: 0px 3px 30px 0px rgba(220, 190, 190, 0.35);
+    margin-top: 0px;
+    padding-top: 170px; 
+    padding-bottom: 200px;
+}
+.main h5 {
+    padding-right: 250px;
+}
+@media screen and (max-width : 1714px) {
+    .main {
+        background-size: auto;
+    }
+    .main h5 {
+    padding-right: 200px;
+    }
+}
+@media screen and (max-width : 1508px) {
+    .main h5 {
+    padding-right: 150px;
+    }
+}
+@media screen and (max-width : 1412px) {
+    .main h5 {
+    padding-right: 100px;
+    }
+}
+@media screen and (max-width : 1184px) {
+    .main h5 {
+    padding-right: 0px;
+    }
+    .main {
+        text-align: center;
+    }
+}
+@media screen and (max-width : 380px) {
+    .main h1 {
+        font-size: 48px;
+    }
+}
